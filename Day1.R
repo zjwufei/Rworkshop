@@ -1,0 +1,6 @@
+summary(iris)
+summary(object = iris, maxsum = 2)
+hist(iris$Petal.Width)
+plot(density(iris$Petal.Width))
+mycol <- c("blue","orange","green" )
+with(iris,plot(Petal.Width ~ Petal.Length, col = mycol[Species]))
